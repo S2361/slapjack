@@ -14,6 +14,9 @@
 		4C22D7832B8EF2E8008C1D7D /* slapjackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C22D7822B8EF2E8008C1D7D /* slapjackTests.swift */; };
 		4C22D78D2B8EF2E8008C1D7D /* slapjackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C22D78C2B8EF2E8008C1D7D /* slapjackUITests.swift */; };
 		4C22D78F2B8EF2E8008C1D7D /* slapjackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C22D78E2B8EF2E8008C1D7D /* slapjackUITestsLaunchTests.swift */; };
+		4C22D79C2B8F8CE1008C1D7D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C22D79B2B8F8CE1008C1D7D /* Card.swift */; };
+		4C22D7A02B902BB4008C1D7D /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C22D79F2B902BB4008C1D7D /* Deck.swift */; };
+		4C22D7A22B9046C0008C1D7D /* SlapjackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C22D7A12B9046C0008C1D7D /* SlapjackModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		4C22D7882B8EF2E8008C1D7D /* slapjackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slapjackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C22D78C2B8EF2E8008C1D7D /* slapjackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slapjackUITests.swift; sourceTree = "<group>"; };
 		4C22D78E2B8EF2E8008C1D7D /* slapjackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slapjackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4C22D79B2B8F8CE1008C1D7D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		4C22D79F2B902BB4008C1D7D /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		4C22D7A12B9046C0008C1D7D /* SlapjackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlapjackModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				4C22D7712B8EF2E6008C1D7D /* slapjackApp.swift */,
 				4C22D7732B8EF2E6008C1D7D /* ContentView.swift */,
+				4C22D79B2B8F8CE1008C1D7D /* Card.swift */,
+				4C22D79F2B902BB4008C1D7D /* Deck.swift */,
+				4C22D7A12B9046C0008C1D7D /* SlapjackModel.swift */,
 				4C22D7752B8EF2E8008C1D7D /* Assets.xcassets */,
 				4C22D7772B8EF2E8008C1D7D /* Preview Content */,
 			);
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C22D7A22B9046C0008C1D7D /* SlapjackModel.swift in Sources */,
 				4C22D7742B8EF2E6008C1D7D /* ContentView.swift in Sources */,
+				4C22D79C2B8F8CE1008C1D7D /* Card.swift in Sources */,
+				4C22D7A02B902BB4008C1D7D /* Deck.swift in Sources */,
 				4C22D7722B8EF2E6008C1D7D /* slapjackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
