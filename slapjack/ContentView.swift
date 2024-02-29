@@ -10,13 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
+            Image("c8") // Replace "yourImageName" with the actual name from the asset catalog
+                    .imageScale(.large)
+                    .foregroundStyle(.tint)
             Text("Hi Im commiting from Patrick branch")
         }
         .padding()
     }
+    
 }
 
 #Preview {
