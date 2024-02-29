@@ -37,6 +37,73 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		428CD1A42B9046C10083BBD9 /* 7_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7_of_diamonds.png; sourceTree = "<group>"; };
+		428CD1A52B9046C10083BBD9 /* queen_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = queen_of_spades.png; sourceTree = "<group>"; };
+		428CD1A62B9046C10083BBD9 /* jack_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jack_of_spades.png; sourceTree = "<group>"; };
+		428CD1A72B9046C10083BBD9 /* 8_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8_of_diamonds.png; sourceTree = "<group>"; };
+		428CD1A82B9046C10083BBD9 /* 6_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6_of_clubs.png; sourceTree = "<group>"; };
+		428CD1A92B9046C10083BBD9 /* 9_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9_of_hearts.png; sourceTree = "<group>"; };
+		428CD1AA2B9046C10083BBD9 /* ace_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ace_of_hearts.png; sourceTree = "<group>"; };
+		428CD1AB2B9046C10083BBD9 /* 8_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8_of_spades.png; sourceTree = "<group>"; };
+		428CD1AC2B9046C10083BBD9 /* queen_of_diamonds2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = queen_of_diamonds2.png; sourceTree = "<group>"; };
+		428CD1AD2B9046C10083BBD9 /* jack_of_hearts2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jack_of_hearts2.png; sourceTree = "<group>"; };
+		428CD1AE2B9046C10083BBD9 /* king_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = king_of_clubs.png; sourceTree = "<group>"; };
+		428CD1AF2B9046C10083BBD9 /* 7_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7_of_clubs.png; sourceTree = "<group>"; };
+		428CD1B02B9046C10083BBD9 /* jack_of_spades2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jack_of_spades2.png; sourceTree = "<group>"; };
+		428CD1B12B9046C10083BBD9 /* jack_of_clubs2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jack_of_clubs2.png; sourceTree = "<group>"; };
+		428CD1B22B9046C10083BBD9 /* queen_of_clubs2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = queen_of_clubs2.png; sourceTree = "<group>"; };
+		428CD1B32B9046C10083BBD9 /* 10_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10_of_diamonds.png; sourceTree = "<group>"; };
+		428CD1B42B9046C10083BBD9 /* 10_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10_of_spades.png; sourceTree = "<group>"; };
+		428CD1B52B9046C10083BBD9 /* black_joker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black_joker.png; sourceTree = "<group>"; };
+		428CD1B62B9046C10083BBD9 /* king_of_hearts2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = king_of_hearts2.png; sourceTree = "<group>"; };
+		428CD1B72B9046C10083BBD9 /* ace_of_spades2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ace_of_spades2.png; sourceTree = "<group>"; };
+		428CD1B82B9046C10083BBD9 /* jack_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jack_of_clubs.png; sourceTree = "<group>"; };
+		428CD1B92B9046C10083BBD9 /* 6_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6_of_spades.png; sourceTree = "<group>"; };
+		428CD1BA2B9046C10083BBD9 /* king_of_spades2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = king_of_spades2.png; sourceTree = "<group>"; };
+		428CD1BB2B9046C10083BBD9 /* 4_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4_of_hearts.png; sourceTree = "<group>"; };
+		428CD1BC2B9046C10083BBD9 /* 2_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2_of_spades.png; sourceTree = "<group>"; };
+		428CD1BD2B9046C10083BBD9 /* queen_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = queen_of_clubs.png; sourceTree = "<group>"; };
+		428CD1BE2B9046C10083BBD9 /* 3_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_of_hearts.png; sourceTree = "<group>"; };
+		428CD1BF2B9046C10083BBD9 /* 5_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5_of_spades.png; sourceTree = "<group>"; };
+		428CD1C02B9046C10083BBD9 /* 6_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6_of_diamonds.png; sourceTree = "<group>"; };
+		428CD1C12B9046C10083BBD9 /* queen_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = queen_of_diamonds.png; sourceTree = "<group>"; };
+		428CD1C22B9046C10083BBD9 /* 7_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7_of_hearts.png; sourceTree = "<group>"; };
+		428CD1C32B9046C10083BBD9 /* king_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = king_of_hearts.png; sourceTree = "<group>"; };
+		428CD1C42B9046C10083BBD9 /* ace_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ace_of_clubs.png; sourceTree = "<group>"; };
+		428CD1C52B9046C10083BBD9 /* 9_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9_of_diamonds.png; sourceTree = "<group>"; };
+		428CD1C62B9046C10083BBD9 /* 6_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6_of_hearts.png; sourceTree = "<group>"; };
+		428CD1C72B9046C10083BBD9 /* 9_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9_of_clubs.png; sourceTree = "<group>"; };
+		428CD1C82B9046C10083BBD9 /* king_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = king_of_diamonds.png; sourceTree = "<group>"; };
+		428CD1C92B9046C10083BBD9 /* 4_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4_of_spades.png; sourceTree = "<group>"; };
+		428CD1CA2B9046C10083BBD9 /* 2_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2_of_hearts.png; sourceTree = "<group>"; };
+		428CD1CB2B9046C10083BBD9 /* 3_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_of_diamonds.png; sourceTree = "<group>"; };
+		428CD1CC2B9046C10083BBD9 /* 10_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10_of_hearts.png; sourceTree = "<group>"; };
+		428CD1CD2B9046C10083BBD9 /* king_of_clubs2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = king_of_clubs2.png; sourceTree = "<group>"; };
+		428CD1CE2B9046C10083BBD9 /* king_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = king_of_spades.png; sourceTree = "<group>"; };
+		428CD1CF2B9046C10083BBD9 /* jack_of_diamonds2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jack_of_diamonds2.png; sourceTree = "<group>"; };
+		428CD1D02B9046C10083BBD9 /* 8_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8_of_clubs.png; sourceTree = "<group>"; };
+		428CD1D12B9046C10083BBD9 /* 4_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4_of_diamonds.png; sourceTree = "<group>"; };
+		428CD1D22B9046C10083BBD9 /* jack_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jack_of_diamonds.png; sourceTree = "<group>"; };
+		428CD1D32B9046C10083BBD9 /* 3_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_of_spades.png; sourceTree = "<group>"; };
+		428CD1D42B9046C10083BBD9 /* 5_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5_of_hearts.png; sourceTree = "<group>"; };
+		428CD1D52B9046C10083BBD9 /* 7_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7_of_spades.png; sourceTree = "<group>"; };
+		428CD1D62B9046C10083BBD9 /* ace_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ace_of_spades.png; sourceTree = "<group>"; };
+		428CD1D72B9046C10083BBD9 /* 5_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5_of_diamonds.png; sourceTree = "<group>"; };
+		428CD1D82B9046C10083BBD9 /* 9_of_spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9_of_spades.png; sourceTree = "<group>"; };
+		428CD1D92B9046C10083BBD9 /* queen_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = queen_of_hearts.png; sourceTree = "<group>"; };
+		428CD1DA2B9046C10083BBD9 /* ace_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ace_of_diamonds.png; sourceTree = "<group>"; };
+		428CD1DB2B9046C10083BBD9 /* king_of_diamonds2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = king_of_diamonds2.png; sourceTree = "<group>"; };
+		428CD1DC2B9046C10083BBD9 /* 5_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5_of_clubs.png; sourceTree = "<group>"; };
+		428CD1DD2B9046C10083BBD9 /* 2_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2_of_clubs.png; sourceTree = "<group>"; };
+		428CD1DE2B9046C10083BBD9 /* jack_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jack_of_hearts.png; sourceTree = "<group>"; };
+		428CD1DF2B9046C10083BBD9 /* 10_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10_of_clubs.png; sourceTree = "<group>"; };
+		428CD1E02B9046C10083BBD9 /* queen_of_spades2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = queen_of_spades2.png; sourceTree = "<group>"; };
+		428CD1E12B9046C10083BBD9 /* queen_of_hearts2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = queen_of_hearts2.png; sourceTree = "<group>"; };
+		428CD1E22B9046C10083BBD9 /* 2_of_diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2_of_diamonds.png; sourceTree = "<group>"; };
+		428CD1E32B9046C10083BBD9 /* 8_of_hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8_of_hearts.png; sourceTree = "<group>"; };
+		428CD1E42B9046C10083BBD9 /* red_joker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_joker.png; sourceTree = "<group>"; };
+		428CD1E52B9046C10083BBD9 /* 3_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_of_clubs.png; sourceTree = "<group>"; };
+		428CD1E62B9046C10083BBD9 /* 4_of_clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4_of_clubs.png; sourceTree = "<group>"; };
 		4C22D76E2B8EF2E6008C1D7D /* slapjack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slapjack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C22D7712B8EF2E6008C1D7D /* slapjackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slapjackApp.swift; sourceTree = "<group>"; };
 		4C22D7732B8EF2E6008C1D7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +144,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		428CD1A32B9046C10083BBD9 /* PNG-cards-1.3 */ = {
+			isa = PBXGroup;
+			children = (
+				428CD1A42B9046C10083BBD9 /* 7_of_diamonds.png */,
+				428CD1A52B9046C10083BBD9 /* queen_of_spades.png */,
+				428CD1A62B9046C10083BBD9 /* jack_of_spades.png */,
+				428CD1A72B9046C10083BBD9 /* 8_of_diamonds.png */,
+				428CD1A82B9046C10083BBD9 /* 6_of_clubs.png */,
+				428CD1A92B9046C10083BBD9 /* 9_of_hearts.png */,
+				428CD1AA2B9046C10083BBD9 /* ace_of_hearts.png */,
+				428CD1AB2B9046C10083BBD9 /* 8_of_spades.png */,
+				428CD1AC2B9046C10083BBD9 /* queen_of_diamonds2.png */,
+				428CD1AD2B9046C10083BBD9 /* jack_of_hearts2.png */,
+				428CD1AE2B9046C10083BBD9 /* king_of_clubs.png */,
+				428CD1AF2B9046C10083BBD9 /* 7_of_clubs.png */,
+				428CD1B02B9046C10083BBD9 /* jack_of_spades2.png */,
+				428CD1B12B9046C10083BBD9 /* jack_of_clubs2.png */,
+				428CD1B22B9046C10083BBD9 /* queen_of_clubs2.png */,
+				428CD1B32B9046C10083BBD9 /* 10_of_diamonds.png */,
+				428CD1B42B9046C10083BBD9 /* 10_of_spades.png */,
+				428CD1B52B9046C10083BBD9 /* black_joker.png */,
+				428CD1B62B9046C10083BBD9 /* king_of_hearts2.png */,
+				428CD1B72B9046C10083BBD9 /* ace_of_spades2.png */,
+				428CD1B82B9046C10083BBD9 /* jack_of_clubs.png */,
+				428CD1B92B9046C10083BBD9 /* 6_of_spades.png */,
+				428CD1BA2B9046C10083BBD9 /* king_of_spades2.png */,
+				428CD1BB2B9046C10083BBD9 /* 4_of_hearts.png */,
+				428CD1BC2B9046C10083BBD9 /* 2_of_spades.png */,
+				428CD1BD2B9046C10083BBD9 /* queen_of_clubs.png */,
+				428CD1BE2B9046C10083BBD9 /* 3_of_hearts.png */,
+				428CD1BF2B9046C10083BBD9 /* 5_of_spades.png */,
+				428CD1C02B9046C10083BBD9 /* 6_of_diamonds.png */,
+				428CD1C12B9046C10083BBD9 /* queen_of_diamonds.png */,
+				428CD1C22B9046C10083BBD9 /* 7_of_hearts.png */,
+				428CD1C32B9046C10083BBD9 /* king_of_hearts.png */,
+				428CD1C42B9046C10083BBD9 /* ace_of_clubs.png */,
+				428CD1C52B9046C10083BBD9 /* 9_of_diamonds.png */,
+				428CD1C62B9046C10083BBD9 /* 6_of_hearts.png */,
+				428CD1C72B9046C10083BBD9 /* 9_of_clubs.png */,
+				428CD1C82B9046C10083BBD9 /* king_of_diamonds.png */,
+				428CD1C92B9046C10083BBD9 /* 4_of_spades.png */,
+				428CD1CA2B9046C10083BBD9 /* 2_of_hearts.png */,
+				428CD1CB2B9046C10083BBD9 /* 3_of_diamonds.png */,
+				428CD1CC2B9046C10083BBD9 /* 10_of_hearts.png */,
+				428CD1CD2B9046C10083BBD9 /* king_of_clubs2.png */,
+				428CD1CE2B9046C10083BBD9 /* king_of_spades.png */,
+				428CD1CF2B9046C10083BBD9 /* jack_of_diamonds2.png */,
+				428CD1D02B9046C10083BBD9 /* 8_of_clubs.png */,
+				428CD1D12B9046C10083BBD9 /* 4_of_diamonds.png */,
+				428CD1D22B9046C10083BBD9 /* jack_of_diamonds.png */,
+				428CD1D32B9046C10083BBD9 /* 3_of_spades.png */,
+				428CD1D42B9046C10083BBD9 /* 5_of_hearts.png */,
+				428CD1D52B9046C10083BBD9 /* 7_of_spades.png */,
+				428CD1D62B9046C10083BBD9 /* ace_of_spades.png */,
+				428CD1D72B9046C10083BBD9 /* 5_of_diamonds.png */,
+				428CD1D82B9046C10083BBD9 /* 9_of_spades.png */,
+				428CD1D92B9046C10083BBD9 /* queen_of_hearts.png */,
+				428CD1DA2B9046C10083BBD9 /* ace_of_diamonds.png */,
+				428CD1DB2B9046C10083BBD9 /* king_of_diamonds2.png */,
+				428CD1DC2B9046C10083BBD9 /* 5_of_clubs.png */,
+				428CD1DD2B9046C10083BBD9 /* 2_of_clubs.png */,
+				428CD1DE2B9046C10083BBD9 /* jack_of_hearts.png */,
+				428CD1DF2B9046C10083BBD9 /* 10_of_clubs.png */,
+				428CD1E02B9046C10083BBD9 /* queen_of_spades2.png */,
+				428CD1E12B9046C10083BBD9 /* queen_of_hearts2.png */,
+				428CD1E22B9046C10083BBD9 /* 2_of_diamonds.png */,
+				428CD1E32B9046C10083BBD9 /* 8_of_hearts.png */,
+				428CD1E42B9046C10083BBD9 /* red_joker.png */,
+				428CD1E52B9046C10083BBD9 /* 3_of_clubs.png */,
+				428CD1E62B9046C10083BBD9 /* 4_of_clubs.png */,
+			);
+			path = "PNG-cards-1.3";
+			sourceTree = "<group>";
+		};
 		4C22D7652B8EF2E6008C1D7D = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +241,7 @@
 		4C22D7702B8EF2E6008C1D7D /* slapjack */ = {
 			isa = PBXGroup;
 			children = (
+				428CD1A32B9046C10083BBD9 /* PNG-cards-1.3 */,
 				4C22D7712B8EF2E6008C1D7D /* slapjackApp.swift */,
 				4C22D7732B8EF2E6008C1D7D /* ContentView.swift */,
 				4C22D79B2B8F8CE1008C1D7D /* Card.swift */,
