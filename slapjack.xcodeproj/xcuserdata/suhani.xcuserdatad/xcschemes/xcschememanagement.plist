@@ -4,10 +4,33 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>slapjack 1.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>slapjack.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4C22D76D2B8EF2E6008C1D7D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4C22D77D2B8EF2E8008C1D7D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4C22D7872B8EF2E8008C1D7D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

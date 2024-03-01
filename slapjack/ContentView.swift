@@ -21,7 +21,14 @@ struct ContentView: View {
                 Image("2_of_clubs") // Replace "yourImageName" with the actual name from the asset catalog
                     .resizable()
                     .frame(width: width_size, height: width_size * height_scale)
-                Text("Hi Im commiting from Patrick branch")
+                
+                Image("2_of_clubs") // Replace "yourImageName" with the actual name from the asset catalog
+                    .resizable()
+                    .frame(width: width_size, height: width_size * height_scale)
+                
+                Image("2_of_clubs") // Replace "yourImageName" with the actual name from the asset catalog
+                    .resizable()
+                    .frame(width: width_size, height: width_size * height_scale)
             }
         }
     }

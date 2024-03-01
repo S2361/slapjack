@@ -9,22 +9,19 @@ import Foundation
 
 class Deck {
     
-    var deck : [Card]
+    var cards : [Card]
     
     init() {
-        deck = []
+        cards = []
         for suit in Card.Suit.allCases {
             for rank in Card.Rank.allCases {
-                self.deck.append(Card(suit: suit, rank: rank))
+                self.cards.append(Card(suit: suit, rank: rank))
             }
         }
     }
     
     func shuffle() {
-        deck.shuffle()
+        cards.shuffle()
     }
     
-    func dealCard() -> Card {
-        return deck.removeFirst()
-    }
 }
