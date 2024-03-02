@@ -2,7 +2,7 @@
 //  Card.swift
 //  slapjack
 //
-//  Created by Suhani Agrawal on 2/28/24.
+//  Created by Suhani Agrawal on 3/2/24.
 //
 
 import Foundation
@@ -13,15 +13,10 @@ struct Card {
         case spades, clubs, hearts, diamonds
     }
     
-    enum Rank : Int, CaseIterable {
+    enum Rank : String, CaseIterable {
         case ace, two, three, four, five, six, seven, eight, nine, ten, jack, queen, king
     }
     
     let suit : Suit
     let rank : Rank
 }
-
-
-
-
-

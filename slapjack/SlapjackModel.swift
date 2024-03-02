@@ -8,20 +8,11 @@
 import Foundation
 
 class SlapjackModel {
-    var userDeck : [Card]
-    var machineDeck : [Card]
-    var middlePile : [Card]
-    var deck : Deck
-    
+
     init() {
-        self.deck = Deck()
-        self.deck.shuffle()
-        self.userDeck = Array(deck.cards[0..<deck.cards.count / 2])
-        self.machineDeck = Array(deck.cards[(deck.cards.count / 2)..<deck.cards.count])
-        self.middlePile = Array()
     }
     
-    func playCard(playerDeck : inout [Card]) -> Card {
+    func playCard(playerDeck : inout [Card], middlePile : inout [Card]) -> Card {
         guard !playerDeck.isEmpty else {
             fatalError("Cannot play a card from an empty deck.")
         }
@@ -31,7 +22,7 @@ class SlapjackModel {
         return playedCard
     }
     
-    func burnCard(playerDeck : inout [Card]) -> Card {
+    func burnCard(playerDeck : inout [Card], middlePile : inout [Card]) -> Card {
         guard !playerDeck.isEmpty else {
             fatalError("Cannot play a card from an empty deck.")
         }
@@ -39,6 +30,25 @@ class SlapjackModel {
         let playedCard = playerDeck.removeFirst()
         middlePile.insert(playedCard, at: 0)
         return playedCard
+    }
+    
+    func middleCardImage(middlePile : [Card]) -> String {
+        guard !middlePile.isEmpty else {
+            return ""
+        }
+        var imageName = ""
+        let rankName = middlePile[middlePile.count - 1].rank.rawValue
+        
+        if let rankNum = Int(rankName) {
+            imageName += String(rankNum)
+        } else {
+            imageName += rankName
+        }
+        
+        imageName += "_of_"
+        imageName += middlePile[middlePile.count - 1].suit.rawValue
+        
+        return imageName
     }
     
     func randTime() -> Int {
