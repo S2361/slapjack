@@ -17,6 +17,9 @@
 		4C22D79C2B8F8CE1008C1D7D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C22D79B2B8F8CE1008C1D7D /* Card.swift */; };
 		4C22D7A02B902BB4008C1D7D /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C22D79F2B902BB4008C1D7D /* Deck.swift */; };
 		4C22D7A22B9046C0008C1D7D /* SlapjackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C22D7A12B9046C0008C1D7D /* SlapjackModel.swift */; };
+		4C22D7A62B937EFE008C1D7D /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C22D7A52B937EFE008C1D7D /* GameView.swift */; };
+		4C22D7A82B93842F008C1D7D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C22D7A72B93842F008C1D7D /* Extensions.swift */; };
+		4C22D7AE2B93882B008C1D7D /* back-deck.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C22D7AD2B93882B008C1D7D /* back-deck.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +120,9 @@
 		4C22D79B2B8F8CE1008C1D7D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		4C22D79F2B902BB4008C1D7D /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		4C22D7A12B9046C0008C1D7D /* SlapjackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlapjackModel.swift; sourceTree = "<group>"; };
+		4C22D7A52B937EFE008C1D7D /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		4C22D7A72B93842F008C1D7D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4C22D7AD2B93882B008C1D7D /* back-deck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back-deck.png"; path = "../../../../../../Downloads/back-deck.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +153,7 @@
 		428CD1A32B9046C10083BBD9 /* PNG-cards-1.3 */ = {
 			isa = PBXGroup;
 			children = (
+				4C22D7AD2B93882B008C1D7D /* back-deck.png */,
 				428CD1A42B9046C10083BBD9 /* 7_of_diamonds.png */,
 				428CD1A52B9046C10083BBD9 /* queen_of_spades.png */,
 				428CD1A62B9046C10083BBD9 /* jack_of_spades.png */,
@@ -241,14 +248,15 @@
 		4C22D7702B8EF2E6008C1D7D /* slapjack */ = {
 			isa = PBXGroup;
 			children = (
-				428CD1A32B9046C10083BBD9 /* PNG-cards-1.3 */,
 				4C22D7712B8EF2E6008C1D7D /* slapjackApp.swift */,
-				4C22D7732B8EF2E6008C1D7D /* ContentView.swift */,
 				4C22D79B2B8F8CE1008C1D7D /* Card.swift */,
 				4C22D79F2B902BB4008C1D7D /* Deck.swift */,
 				4C22D7A12B9046C0008C1D7D /* SlapjackModel.swift */,
 				4C22D7752B8EF2E8008C1D7D /* Assets.xcassets */,
+				4C22D7A42B937EDA008C1D7D /* Views */,
+				4C22D7A32B92818A008C1D7D /* Components */,
 				4C22D7772B8EF2E8008C1D7D /* Preview Content */,
+				4C22D7A72B93842F008C1D7D /* Extensions.swift */,
 			);
 			path = slapjack;
 			sourceTree = "<group>";
@@ -276,6 +284,23 @@
 				4C22D78E2B8EF2E8008C1D7D /* slapjackUITestsLaunchTests.swift */,
 			);
 			path = slapjackUITests;
+			sourceTree = "<group>";
+		};
+		4C22D7A32B92818A008C1D7D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				428CD1A32B9046C10083BBD9 /* PNG-cards-1.3 */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4C22D7A42B937EDA008C1D7D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C22D7732B8EF2E6008C1D7D /* ContentView.swift */,
+				4C22D7A52B937EFE008C1D7D /* GameView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -383,6 +408,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C22D7792B8EF2E8008C1D7D /* Preview Assets.xcassets in Resources */,
+				4C22D7AE2B93882B008C1D7D /* back-deck.png in Resources */,
 				4C22D7762B8EF2E8008C1D7D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,7 +438,9 @@
 				4C22D7742B8EF2E6008C1D7D /* ContentView.swift in Sources */,
 				4C22D79C2B8F8CE1008C1D7D /* Card.swift in Sources */,
 				4C22D7A02B902BB4008C1D7D /* Deck.swift in Sources */,
+				4C22D7A62B937EFE008C1D7D /* GameView.swift in Sources */,
 				4C22D7722B8EF2E6008C1D7D /* slapjackApp.swift in Sources */,
+				4C22D7A82B93842F008C1D7D /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

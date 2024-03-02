@@ -10,7 +10,7 @@ import Foundation
 struct Card {
     
     enum Suit : String, CaseIterable {
-        case SPADES, CLUBS, HEARTS, DIAMONDS
+        case spades, clubs, hearts, diamonds
     }
     
     enum Rank : Int, CaseIterable {

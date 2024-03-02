@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-let height_scale = 1.45
-let width_size = 100.0
+// let height_scale = 1.45
+// let width_size = 100.0
 let bgColor = Color(red: 11/255.0, green: 110/255.0, blue: 26/255.0, opacity: 1.0) // Define a custom color
 
 struct ContentView: View {
