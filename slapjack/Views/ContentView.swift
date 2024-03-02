@@ -51,7 +51,7 @@ struct ContentView: View {
                     .resizable()
                     .frame(width: width_size, height: width_size * height_scale)
                     .onAppear {
-                        // displayedCard = ____
+                        displayedCard = slapjackManager.topMiddleCardName
                     }
             }
             
@@ -73,10 +73,9 @@ struct ContentView: View {
                         .foregroundStyle(Color.white)
                         .bold()
                 }
-                
             }
             .onTapGesture {
-                <#code#>
+                //
             }
             
         }

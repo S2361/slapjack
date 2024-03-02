@@ -12,24 +12,22 @@ class SlapjackModel {
     init() {
     }
     
-    func playCard(playerDeck : inout [Card], middlePile : inout [Card]) -> Card {
+    func playCard(playerDeck : inout [Card], middlePile : inout [Card]) {
         guard !playerDeck.isEmpty else {
             fatalError("Cannot play a card from an empty deck.")
         }
         
         let playedCard = playerDeck.removeFirst()
         middlePile.append(playedCard)
-        return playedCard
     }
     
-    func burnCard(playerDeck : inout [Card], middlePile : inout [Card]) -> Card {
+    func burnCard(playerDeck : inout [Card], middlePile : inout [Card]) {
         guard !playerDeck.isEmpty else {
             fatalError("Cannot play a card from an empty deck.")
         }
         
         let playedCard = playerDeck.removeFirst()
         middlePile.insert(playedCard, at: 0)
-        return playedCard
     }
     
     func middleCardImage(middlePile : [Card]) -> String {
@@ -49,6 +47,13 @@ class SlapjackModel {
         imageName += middlePile[middlePile.count - 1].suit.rawValue
         
         return imageName
+    }
+    
+    func checkCard(card : Card) -> Bool {
+        if card.rank == .jack {
+            return true
+        }
+        return false
     }
     
     func randTime() -> Int {
