@@ -8,6 +8,8 @@
 import Foundation
 
 class SlapjackModel {
+    
+    var nums : [String: Int] = ["two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9, "ten": 10]
 
     init() {
     }
@@ -37,11 +39,12 @@ class SlapjackModel {
         var imageName = ""
         let rankName = middlePile[middlePile.count - 1].rank.rawValue
         
-        if let rankNum = Int(rankName) {
-            imageName += String(rankNum)
+        if let imageDescription = nums[rankName]?.description {
+          imageName += imageDescription
         } else {
-            imageName += rankName
+          imageName += rankName.description
         }
+
         
         imageName += "_of_"
         imageName += middlePile[middlePile.count - 1].suit.rawValue
@@ -63,5 +66,13 @@ class SlapjackModel {
         let range = maxMilliseconds - minMilliseconds + 1
 
         return minMilliseconds + Int(arc4random_uniform(UInt32(range)))
+    }
+    
+    func numPlayerCards(playerDeck : [Card]) -> Int {
+        return playerDeck.count
+    }
+    
+    func numMachineCards(machineDeck : [Card]) -> Int {
+        return machineDeck.count
     }
 }
