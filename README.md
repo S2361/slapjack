@@ -83,7 +83,7 @@ Slapjack contains the following rules:
 * Swift (language), XCode (IDE)
 
 ## Creators
-@S2361
+@S2361 and @patrickstarh7
 
 
 
