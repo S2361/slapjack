@@ -45,6 +45,14 @@ Slapjack contains the following rules:
 * The number of cards is displayed under the face-up cards
 * On the side of the pile is text that gives a brief description about what move has played (or is in progress)
 
+
+### Functionality
+* Player must tap their face-down deck when it is their turn (cannot play when Machine turn)
+* When a card is played, the card count of the player and the pile count is updated
+* If a Jack appears, then the player must tap the middle pile within a randomly generated time otherwise middle pile goes to machine
+  * Time is between 100 milliseconds to 2 seconds
+* 
+
 ## App Creation
 
 
