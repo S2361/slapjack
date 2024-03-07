@@ -24,7 +24,11 @@ Slapjack contains the following rules:
 ## How App Works
 ### User Interface
 #### Player Info
-![image](https://github.com/S2361/slapjack/assets/68034141/95e64bb5-b15b-4f3a-a837-6fdb3abf108a)
+
+<p align="center">
+  <img width="300" src="https://github.com/S2361/slapjack/assets/68034141/95e64bb5-b15b-4f3a-a837-6fdb3abf108a">
+  <img width="300" src="https://github.com/S2361/slapjack/assets/68034141/a52e3907-6d0e-4f18-ac1d-21e54bd72850">
+</p>
 
 * User knows which player must take their turn based on whether their name is highlighted with "-" on both sides of their name
 
