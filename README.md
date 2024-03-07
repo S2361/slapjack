@@ -1,7 +1,7 @@
 # Slapjack 🃏
 Slapjack game between the user (player) and machine where players try to slap Jack cards to gain cards.
 
-<img src="[[path/to/your/image.jpg](https://github.com/S2361/slapjack/assets/68034141/27464a03-0d71-48a6-83da-70b5ec0dc29a)]" alt="[Main Image]" style="height: 150px;">
+<img src="[https://github.com/S2361/slapjack/assets/68034141/27464a03-0d71-48a6-83da-70b5ec0dc29a]" alt="[Main Image]" style="height: 150px;">
 
 ## Table of Contents 🎴
 - [Game Rules](#game-rules)
