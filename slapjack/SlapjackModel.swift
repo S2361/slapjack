@@ -23,15 +23,6 @@ class SlapjackModel {
         middlePile.append(playedCard)
     }
     
-    func burnCard(playerDeck : inout [Card], middlePile : inout [Card]) {
-        guard !playerDeck.isEmpty else {
-            fatalError("Cannot play a card from an empty deck.")
-        }
-        
-        let playedCard = playerDeck.removeFirst()
-        middlePile.insert(playedCard, at: 0)
-    }
-    
     func middleCardImage(middlePile : [Card]) -> String {
         guard !middlePile.isEmpty else {
             return ""
@@ -52,27 +43,15 @@ class SlapjackModel {
         return imageName
     }
     
-    func checkCard(card : Card) -> Bool {
-        if card.rank == .jack {
-            return true
-        }
-        return false
-    }
-    
-    func randTime() -> Int {
-        let minMilliseconds = 100
-        let maxMilliseconds = 2000
-        
-        let range = maxMilliseconds - minMilliseconds + 1
-
-        return minMilliseconds + Int(arc4random_uniform(UInt32(range)))
-    }
-    
     func numPlayerCards(playerDeck : [Card]) -> Int {
         return playerDeck.count
     }
     
     func numMachineCards(machineDeck : [Card]) -> Int {
         return machineDeck.count
+    }
+    
+    func numMiddlePile(middlePile : [Card]) -> Int {
+        return middlePile.count
     }
 }

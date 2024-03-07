@@ -20,6 +20,7 @@ class SlapjackManager : ObservableObject {
     @Published var machineName = "Machine"
     
     @Published private(set) var middlePile : [Card]
+    @Published private(set) var middlePileCount = 0
     @Published private(set) var playerTurn = true
     @Published var topMiddleCardName = ""
     
@@ -37,6 +38,49 @@ class SlapjackManager : ObservableObject {
         self.middlePile = Array()
     }
     
+    func checkCard(card : Card) -> Bool {
+        if card.rank == .jack {
+            return true
+        }
+        return false
+    }
+    
+    func burnCard() {
+        guard !playerDeck.isEmpty else {
+            fatalError("Cannot play a card from an empty deck.")
+        }
+        
+        let playedCard = playerDeck.removeFirst()
+        middlePile.insert(playedCard, at: 0)
+    }
+    
+    func playerCollectMiddlePile() {
+        for i in 0...middlePile.count - 1 {
+            playerDeck.append(middlePile[i])
+        }
+        
+        middlePile = []
+        playerDeck.shuffle()
+    }
+    
+    func machineCollectMiddlePile() {
+        for i in 0...middlePile.count - 1 {
+            machineDeck.append(middlePile[i])
+        }
+        
+        middlePile = []
+        machineDeck.shuffle()
+    }
+    
+    func randTime() -> Int {
+        let minMilliseconds = 100
+        let maxMilliseconds = 2000
+        
+        let range = maxMilliseconds - minMilliseconds + 1
+
+        return minMilliseconds + Int(arc4random_uniform(UInt32(range)))
+    }
+    
     func handlePlayerTurn(playerTurn: Bool) {
         if (!self.playerTurn) {
             // Player shouldn't be tapping
@@ -49,14 +93,10 @@ class SlapjackManager : ObservableObject {
         // Checks which player needs to add card to middle pile
         gameModel.playCard(playerDeck: &playerDeck, middlePile: &middlePile)
         playerCardCount = gameModel.numPlayerCards(playerDeck: playerDeck)
+        middlePileCount = gameModel.numMiddlePile(middlePile: middlePile)
         
         // To update the middle card
         topMiddleCardName = gameModel.middleCardImage(middlePile: middlePile)
-        
-        // Checks if the played card is jack
-        // if gameModel.checkCard(card: middlePile[middlePile.count - 1]) {
-            
-        // }
         
         self.playerName = "Player"
         self.machineName = "- Machine -"
@@ -74,14 +114,10 @@ class SlapjackManager : ObservableObject {
         // Checks which player needs to add card to middle pile
         gameModel.playCard(playerDeck: &machineDeck, middlePile: &middlePile)
         machineCardCount = gameModel.numPlayerCards(playerDeck: machineDeck)
+        middlePileCount = gameModel.numMiddlePile(middlePile: middlePile)
         
         // To update the middle card
         topMiddleCardName = gameModel.middleCardImage(middlePile: middlePile)
-        
-        // Checks if the played card is jack
-        if gameModel.checkCard(card: middlePile[middlePile.count - 1]) {
-            
-        }
         
         self.playerName = "- Player -"
         self.machineName = "Machine"
@@ -98,6 +134,29 @@ class SlapjackManager : ObservableObject {
         }
         
     }
+    
+    func gameOver() -> Bool {
+        return machineDeck.isEmpty || playerDeck.isEmpty
+    }
+    
+    func gameOutcome() -> String {
+        if machineDeck.isEmpty && playerDeck.isEmpty {
+            return "Draw"
+        } else if machineDeck.isEmpty {
+            return "Machine Won"
+        } else if playerDeck.isEmpty {
+            return "Player Won"
+        }
+        return ""
+    }
+    
+    func resetGame() {
+        self.deck.shuffle()
+        self.playerDeck = Array(deck.cards[0..<deck.cards.count / 2])
+        self.machineDeck = Array(deck.cards[(deck.cards.count / 2)..<deck.cards.count])
+        self.middlePile = Array()
+    }
+    
     
     
 }
