@@ -70,13 +70,17 @@ Slapjack contains the following rules:
   * Ex. numPlayerCards(), middleCardImage()
 
 #### Slapjack Manager
-* 
+* The Slapjack Manager class creates instances of all the needed objects and data structures for the gameplay
+  * Ex. playerDeck, machineDeck, card counts for players, deck
+* Manager also contains methods to control the basic functions of the game and incorporate the Slapjack Model functions
+* Manager is an ObservableObject since updates that are made to its fields should promptly update the UI
 
 #### Content View
+* The Content View is the only SwiftUI file in the program which controls all UI features (ie. cards, text, etc.)
+* Also contains a few functions to handle player turns
 
 ## Tools
 * Swift (language), XCode (IDE)
-
 
 ## Creators
 @S2361
