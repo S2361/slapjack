@@ -24,7 +24,6 @@ Slapjack contains the following rules:
 ## How App Works
 ### User Interface
 #### Player Info
-
 <p align="center">
   <img width="300" src="https://github.com/S2361/slapjack/assets/68034141/95e64bb5-b15b-4f3a-a837-6fdb3abf108a">
   <img width="300" src="https://github.com/S2361/slapjack/assets/68034141/a52e3907-6d0e-4f18-ac1d-21e54bd72850">
@@ -36,6 +35,12 @@ Slapjack contains the following rules:
   * Player Name
   * Pile of cards (face down)
   * Card count of pile
+ 
+#### Middle Pile
+<p align="center">
+  <img width="400" src="https://github.com/S2361/slapjack/assets/68034141/99229e79-6371-4806-9df1-26193e10e545">
+</p>
+
 
 ## App Creation
 
