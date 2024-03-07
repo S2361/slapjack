@@ -2,7 +2,7 @@
 Slapjack game between the user (player) and machine where players try to slap Jack cards to gain cards.
 
 <p align="center">
-  ![image](https://github.com/S2361/slapjack/assets/68034141/f73c556f-1d9f-4381-b446-0c52b76e8153)
+  <img width="460" height="300" src="https://github.com/S2361/slapjack/assets/68034141/f73c556f-1d9f-4381-b446-0c52b76e8153">
 </p>
 
 
