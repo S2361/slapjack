@@ -1,3 +1,4 @@
+
 # Slapjack 🃏
 Slapjack game between the user (player) and machine where players try to slap Jack cards to gain cards.
 
@@ -59,6 +60,19 @@ Slapjack contains the following rules:
 #### Card
 * The Card Swift file contains code for a Card struct representing a single playing card
 * It has two fields: suit (ie. clubs, spades, etc.) and rank (ie. 1, 2, king, queen, etc.)
+
+#### Deck
+* The Deck class contains an array of Cards and is initialized by creating 52 cards (one of each suit and rank) and adding them to the array
+* Once all Cards are added to the array, they are shuffled
+
+#### Slapjack Model
+* The Slapjack Model class contains several functions relating to the game logic which are to be used in the manager
+  * Ex. numPlayerCards(), middleCardImage()
+
+#### Slapjack Manager
+* 
+
+#### Content View
 
 ## Tools
 * Swift (language), XCode (IDE)
