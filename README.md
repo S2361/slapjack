@@ -4,13 +4,13 @@ Slapjack game between the user (player) and machine where players try to slap Ja
 ![image](https://github.com/S2361/slapjack/assets/68034141/27464a03-0d71-48a6-83da-70b5ec0dc29a)
 
 ## Table of Contents 🎴
-- [Game Rules](#game-rules)
+- [Game Rules 📜](#game-rules)
 - [How App Works](#how-app-works)
 - [App Creation](#app-creation)
 - [Tools](#tools)
 - [Creators](#creators)
 
-## Game Rules
+## Game Rules 📜
 Slapjack contains the following rules:
 * Player must be the first to slap (click on screen) the middle pile to add the cards to their pile
 * Cards earned through slapping a Jack first are added to the pile then shuffled before another card is played
