@@ -27,13 +27,15 @@ Slapjack contains the following rules:
 
 <p align="center">
   <img width="300" src="https://github.com/S2361/slapjack/assets/68034141/95e64bb5-b15b-4f3a-a837-6fdb3abf108a">
-  <p></p>
   <img width="300" src="https://github.com/S2361/slapjack/assets/68034141/a52e3907-6d0e-4f18-ac1d-21e54bd72850">
 </p>
 
-* User knows which player must take their turn based on whether their name is highlighted with "-" on both sides of their name
-
-* 
+* Player (user) sees their pile of cards near the bottom of the screen
+* The machine's cards are near the top of the screen
+* Each player area on the UI contains the following information/visuals:
+  * Player Name
+  * Pile of cards (face down)
+  * Card count of pile
 
 ## App Creation
 
