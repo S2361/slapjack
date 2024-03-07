@@ -55,10 +55,13 @@ Slapjack contains the following rules:
 * If the player taps the middle pile when there is no Jack or after the machine "clicks" the middle pile, then they must burn a card (goes to the bottom of the pile)
 
 ## App Creation
-
+### Program Structure
+#### Card
+* The Card Swift file contains code for a Card struct representing a single playing card
+* It has two fields: suit (ie. clubs, spades, etc.) and rank (ie. 1, 2, king, queen, etc.)
 
 ## Tools
-* Swift
+* Swift (language), XCode (IDE)
 
 
 ## Creators
