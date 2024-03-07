@@ -30,10 +30,10 @@ Slapjack contains the following rules:
 </p>
 
 * Player (user) sees their pile of cards near the bottom of the screen
-* The machine's cards are near the top of the screen
+* Machine's cards are near the top of the screen
 * Each player area on the UI contains the following information/visuals:
   * Player Name
-  * Pile of cards (face down)
+  * Pile of cards (face-down)
   * Card count of pile
  
 #### Middle Pile
@@ -41,6 +41,9 @@ Slapjack contains the following rules:
   <img width="400" src="https://github.com/S2361/slapjack/assets/68034141/99229e79-6371-4806-9df1-26193e10e545">
 </p>
 
+* Middle Pile contains the played cards in a pile
+* The number of cards is displayed under the face-up cards
+* On the side of the pile is text that gives a brief description about what move has played (or is in progress)
 
 ## App Creation
 
