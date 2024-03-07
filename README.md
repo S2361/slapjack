@@ -51,7 +51,8 @@ Slapjack contains the following rules:
 * When a card is played, the card count of the player and the pile count is updated
 * If a Jack appears, then the player must tap the middle pile within a randomly generated time otherwise middle pile goes to machine
   * Time is between 100 milliseconds to 2 seconds
-* 
+  * Middle pile is cleared after it goes to one of the players
+* If the player taps the middle pile when there is no Jack or after the machine "clicks" the middle pile, then they must burn a card (goes to the bottom of the pile)
 
 ## App Creation
 
