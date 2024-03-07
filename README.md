@@ -22,7 +22,13 @@ Slapjack contains the following rules:
 * A draw occurs when both players have empty piles (game is reset)
 
 ## How App Works
+### User Interface
+#### Player Info
+![image](https://github.com/S2361/slapjack/assets/68034141/95e64bb5-b15b-4f3a-a837-6fdb3abf108a)
 
+* User knows which player must take their turn based on whether their name is highlighted with "-" on both sides of their name
+
+* 
 
 ## App Creation
 
@@ -32,7 +38,7 @@ Slapjack contains the following rules:
 
 
 ## Creators
-@S2361 and @patrickstarh7
+@S2361
 
 
 
